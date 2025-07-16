@@ -1,0 +1,6 @@
+python-telegram-bot==20.7
+requests==2.31.0
+pydantic>=2.8.0
+python-dotenv==1.0.0
+pytz==2023.3
+redis==5.0.1

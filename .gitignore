@@ -1,0 +1,84 @@
+# 🔐 Archivos sensibles
+.env
+*.key
+config.json
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 🧪 Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.pytest_cache/
+cover/
+
+# 🌐 Entornos virtuales
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 📝 IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 🖥️ Sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 📊 Logs
+*.log
+logs/
+
+# 💾 Base de datos
+*.db
+*.sqlite
+*.sqlite3
+
+# 🔄 Temporales
+tmp/
+temp/
+.tmp/
+
+# 📦 Node modules (si se agregan en el futuro)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

@@ -1,0 +1,39 @@
+name: 🧪 Tests
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8, 3.9, '3.10', '3.11']
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: 🐍 Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: ${{ matrix.python-version }}
+    
+    - name: 📦 Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install pytest pytest-cov
+    
+    - name: 🧪 Run tests
+      run: |
+        # Por ahora solo verificamos que los módulos se importen correctamente
+        python -c "import bot, fetcher, aggregator, cache, models; print('✅ Todos los módulos se importan correctamente')"
+    
+    - name: 🔍 Check code style
+      run: |
+        pip install flake8
+        # Verificar estilo de código (ignorar líneas muy largas por ahora)
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
