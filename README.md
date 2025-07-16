@@ -2,8 +2,6 @@
 
 Un sistema completo de pronósticos meteorológicos que combina datos de múltiples fuentes para mayor precisión. Disponible como **Bot de Telegram** y **Widget de iOS**.
 
-![Widget Preview](docs/widget-preview.png)
-
 ## 🚀 Características
 
 ### 🎯 **Funcionalidades principales:**
@@ -61,7 +59,7 @@ Un sistema completo de pronósticos meteorológicos que combina datos de múltip
 
 #### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/tu-usuario/universal-weather-bot.git
+git clone https://github.com/falopp/universal-weather-bot.git
 cd universal-weather-bot
 ```
 
@@ -241,23 +239,6 @@ universal-weather-bot/
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
-
-## 🙏 Agradecimientos
-
-- **APIs meteorológicas** por proporcionar datos gratuitos
-- **Telegram Bot API** por la plataforma de bots
-- **Scriptable** por permitir widgets personalizados en iOS
-- **Comunidad open source** por las librerías utilizadas
-
-## 📞 Soporte
-
-¿Tienes problemas o preguntas?
-
-- 🐛 **Bugs:** Abre un [issue](https://github.com/tu-usuario/universal-weather-bot/issues)
-- 💡 **Ideas:** Comparte en [discussions](https://github.com/tu-usuario/universal-weather-bot/discussions)
-- 📧 **Contacto:** [tu-email@ejemplo.com](mailto:tu-email@ejemplo.com)
-
----
 
 ⭐ **¡Si te gusta el proyecto, dale una estrella!** ⭐
 
