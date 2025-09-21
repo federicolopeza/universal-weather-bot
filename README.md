@@ -59,7 +59,7 @@ Un sistema completo de pronósticos meteorológicos que combina datos de múltip
 
 #### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/falopp/universal-weather-bot.git
+git clone https://github.com/federicolopeza/universal-weather-bot.git
 cd universal-weather-bot
 ```
 
